@@ -5,3 +5,12 @@ The primary difference the two is that git rebase attempts to eliminate the "bra
 This makes it so that the project development history can be viewed linearly whereas git merge keeps the branching history workflow after merging two branches.
 It is important to make sure to get the most recent updates from the destination branch before attempting to merge or rebase in order to avoid merge conflicts.  
 One drawback of the rebase is that you would have to fix each commit individually whereas merging you do not.
+
+What is a remote repository?
+
+A remote repository is the same as any other repository (using git version control) except that it is hosted on some "remote" server (GitHub).
+Inversely, local repositories are located on your host machines which you are able to perform a variety of commands to backup, view history, and manage your project.
+Remote repositories have many benefits.
+One of the most beneficial parts of remote repositories is that you can access them on any machine at any time by cloning locally.
+This also means that your project is not depenedent on a single device and can be backed up without your computer dying or going down.
+Furthermore, one of the most commonly used ways remot erepositories are used is through collaboration with team members so that everyone can access the project wherever and whenever they want to whilst also maintaining a structured and clean workflow.
